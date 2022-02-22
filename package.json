@@ -1,0 +1,30 @@
+{
+  "name": "discordbot",
+  "version": "1.1.0",
+  "description": "A FOSS discord word filter",
+  "main": "/src/bot.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/bot.js",
+    "run": "node ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilaz/FOSS-Discord-word-filter.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "william zanin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Wilaz/FOSS-Discord-word-filter/issues"
+  },
+  "homepage": "https://github.com/Wilaz/FOSS-Discord-word-filter#readme"
+}
